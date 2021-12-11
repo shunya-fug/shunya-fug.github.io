@@ -32,9 +32,11 @@ github_username:  shunya-fug
 github: [metadata]
 
 # Build settings
-# theme: jekyll-theme-tactile
-# plugins:
+remote_theme: pages-themes/hacker@v0.2.0
+plugins:
 #   - jekyll-feed
+  - jekyll-remote-theme # add this line to the plugins list if you already have one
+
 
 # Exclude from processing.
 # The following items will not be processed, by default.
@@ -55,5 +57,3 @@ github: [metadata]
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
-
-theme: jekyll-theme-hacker
